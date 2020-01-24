@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+<h1>Mes publications</h1>
+    <div class="row">
+        <div class="col-md-8 mt-3 left">
+            {% for post in post_list %}
+                {% if post.author == user %}
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">{{ post.title }}</h2>
+                            <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
+                            <p class="card-text">{{post.content|slice:":200" }}</p>
+                            <a href="{% url 'my_posts_detail' post.slug  %}" class="btn btn-primary">Lire plus &rarr;</a>
+                            <a href="{% url 'update' post.pk %}" class="btn btn-warning">Modifier</a>
+                            <a href="{% url 'delete' post.pk %}" class="btn btn-danger">Supprimer</a>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="col-md-4 mt-3 right">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Mes posts</h2>
+                    <p class="card-text">Ici vous pouvez modifier ou supprimer vos publications à volonté !</p>
+                    <p class="card-text">Vous pouvez soit publier directement une publication, soit l'ajouter en tant que brouillon qui sera affiché seulement dans vos publications. Une fois que vous serez décidé de la publier, vous pourrez le faire à tout moment.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>Modifier ma publication</h1>
+    <form class="site-form" action="{% url 'update' post.pk %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-success">Enregistrer les modifications</button>
+{#        <input type="submit" value="Enregistrer les modifications">#}
+        <a href="{% url 'my_posts' %}" class="btn btn-outline-secondary" role="button">Annuler</a>
+    </form>
+</div>
+{% endblock %}

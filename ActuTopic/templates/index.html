@@ -1,19 +1,36 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
+<h1>Bienvenue sur ActuTopic {{ user }} !</h1>
     <div class="row">
-        <!-- Blog Entries Column -->
         <div class="col-md-8 mt-3 left">
             {% for post in post_list %}
             <div class="card mb-4">
                 <div class="card-body">
                     <h2 class="card-title">{{ post.title }}</h2>
-                    <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} | {{ post.update_on }} </p>
+                    <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
                     <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
                 </div>
             </div>
             {% endfor %}
+        </div>
+    <div class="col-md-4 mt-3 right">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Les règles</h2>
+                    <p class="card-text">C'est ici que vous pouvez voir toutes les publications qui ont été postées par tous les membres de ActuTopic.</p>
+                    <p class="card-text">Aucune insulte ne sera tolérée.</p>
+                    <p class="card-text">Tout post qui présente du contenu violent, sexuel ou illicite, sera supprimé. Si le membre reposte à nouveau les contenus précédemment énoncés, il sera banni.</p>
+                    <p class="card-text">Passons à présent aux questions !</p>
+                    <i style="font-weight: bold;">Comment devenir membre d'Actutopic ?</i>
+                    <p class="card-text">Inscrivez-vous juste au dessus dans le menu, c'est simple et rapide !</p>
+                    <i style="font-weight: bold;">Une fois inscrit, comment créer une publication ?</i>
+                    <p class="card-text">Cliquez sur "Créer une publication dans le menu et le tour est joué ! Vous verrez apparaître votre publication tout en haut de la liste.</p>
+                    <i style="font-weight: bold;">Mince j'ai fait une erreur, comment modifier/supprimer ma publication ?</i>
+                    <p class="card-text">Rendez-vous dans "Mes publications dans le menu puis modifier ou supprimer votre publication.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

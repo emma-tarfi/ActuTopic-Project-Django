@@ -1,0 +1,7 @@
+{% autoescape off %}
+Bienvenu sur ActuTopic {{ user.username }},
+
+Clique sur le lien suivant afin de pouvoir confirmer ton compte :
+
+http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+{% endautoescape %}
