@@ -10,7 +10,7 @@ Travail : individuel.
 
 
 
-## Autheurs / Equipe
+## Autheur
 
 * **TARFI Emma** - *Etudiante du département informatique de @IUTInfoAix en Licence Pro Dev Web* - [Anokiii](https://github.com/emma-tarfi)
 
@@ -22,7 +22,7 @@ Travail : individuel.
     - Organiser le site de manière plus clair et explicit en ajoutant/modifiant les fonctionnalités à réaliser, en archivant celles qui ont été mise en place... 
     - Ne pas oublier les éléments à faire
     - Etre organisé
-    [Organisation du projet ActuTopic](https://github.com/users/emma-tarfi/projects/)
+    [Organisation du projet ActuTopic](https://github.com/emma-tarfi/ActuTopic-Project-Django/projects/1)
 
 
 ## Choix techniques et leurs raisons
