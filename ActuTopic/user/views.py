@@ -52,13 +52,13 @@ def profile_view(request, pk=None):
 @login_required
 def edit_profile(request):
     if request.method == 'POST':
-        form = EditProfileForm(request.POST, instance=request.user.pk)
+        form = EditProfileForm(request.POST, instance=request.user)
 
         if form.is_valid():
             form.save()
             return redirect(reverse('profile_view'))
     else:
-        form = EditProfileForm(instance=request.user.pk)
+        form = EditProfileForm(instance=request.user)
         args = {'form': form}
         return render(request, 'account/edit_profile.html', args)
 

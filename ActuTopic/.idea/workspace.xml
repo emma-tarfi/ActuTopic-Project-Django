@@ -2,67 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31b807b1-6fbc-4120-a218-b54685999aa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/Avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/resized/100/Avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/resized/65/Avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/resized/80/Avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/emma.tarfi/kawai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/emma.tarfi/resized/100/kawai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/emma.tarfi/resized/65/kawai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/emma.tarfi/resized/80/kawai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/Avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/IMGP0402.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/IMGP0402_CUkSi25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/IMGP0402_Ez6iPJA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/IMGP0402_KHeNQXn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/IMGP0402_cdmJcaa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/IMGP0402_jAmh5jC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/IMGP0402_uLBaY0t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/djnago_Cb1Puud.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/djnago_drty6a9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/kawai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/mojito_Qnjhmdh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/papillon_SUqVHPJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/papillon_TkpWRti.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/papillon_dpvL96w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/papillon_vWtDZtJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/php-illustration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/php-illustration_5jYCi8D.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/php-illustration_73U5rDg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/php-illustration_BjWexI5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/php-illustration_URyFuGI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/php-illustration_XPfqPyU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/profil-fb-wesh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/profil-fb-wesh_jJvF2yU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/profil-fb-wesh_tB8BoDm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/south-beach-jetty-1440x900_M5TzWFk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/xenobotsjpg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/migrations/0005_auto_20200128_1719.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/edit_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0002_auto_20200128_1742.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0003_remove_profile_avatar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0004_auto_20200131_1133.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0005_delete_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/avatars/emma.tarfi/mojito.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/avatars/emma.tarfi/resized/80/mojito.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActuTopic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ActuTopic/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActuTopic/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ActuTopic/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/email/activation_email.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/email/activation_invalid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/email/activation_sent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/edit_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/edit_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/posts/my_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/my_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/posts/update_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/update_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/create_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/create_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/delete_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/delete_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
@@ -165,7 +117,8 @@
       <workItem from="1579857486672" duration="11481000" />
       <workItem from="1580214946975" duration="11795000" />
       <workItem from="1580282934204" duration="5593000" />
-      <workItem from="1580456072757" duration="11052000" />
+      <workItem from="1580456072757" duration="11124000" />
+      <workItem from="1580572430157" duration="7113000" />
     </task>
     <task id="LOCAL-00001" summary="User + publications terminés (voir createview + autres sur projet)">
       <created>1579873961424</created>
@@ -188,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580217819327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modification profil">
+      <created>1580471330736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580471330736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="User + publications terminés (voir createview + autres sur projet)" />
-    <option name="LAST_COMMIT_MESSAGE" value="User + publications terminés (voir createview + autres sur projet)" />
+    <MESSAGE value="Modification profil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification profil" />
   </component>
 </project>

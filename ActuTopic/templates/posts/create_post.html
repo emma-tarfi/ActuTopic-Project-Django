@@ -5,7 +5,8 @@
     <form class="site-form" action="{% url 'create' %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
-        <input type="submit" value="Poster !">
+        <input type="submit" class="btn btn-success" value="Poster">
+        <a href="{% url 'my_posts' %}" class="btn btn-outline-secondary" role="button">Annuler</a>
     </form>
 </div>
 {% endblock %}

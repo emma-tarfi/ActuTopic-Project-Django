@@ -3,12 +3,13 @@
 {% block content %}
 <div class="container">
     <h1>Modifier mon profil</h1>
-    <form class="site-form" action="{% url 'edit_profile' user.pk %}" method="post" enctype="multipart/form-data">
+    <form class="site-form" action="{% url 'edit_profile' %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="btn btn-success">Enregistrer les modifications</button>
         <a href="{% url 'avatar_change' %}" class="btn btn-warning" role="button">Changer votre avatar</a>
-        <a href="{% url 'profile_view_pk' user.pk %}" class="btn btn-outline-secondary" role="button">Annuler</a>
+        <a href="{% url 'avatar_delete' %}" class="btn btn-danger" role="button">Supprimer votre avatar</a>
+        <a href="{% url 'profile_view_pk' user.pk %}" class="btn btn-outline-secondary" role="button">Retour</a>
     </form>
 </div>
 {% endblock %}

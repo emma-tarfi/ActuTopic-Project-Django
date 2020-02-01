@@ -7,6 +7,6 @@ urlpatterns = [
     path('deconnexion/', log_out, name='logout'),
     path('profile/', profile_view, name='profile_view'),
     path('profile/<int:pk>', profile_view, name='profile_view_pk'),
-    path('profile/edit/<int:pk>', edit_profile, name='edit_profile'),
+    path('profile/edit/', edit_profile, name='edit_profile'),
     path('profile/password/', change_password, name='change_password'),
 ]

@@ -13,7 +13,7 @@
         <p>Last name: {{ user.last_name }}</p>
         <p>Email: {{ user.email }}</p>
         <a href="{% url 'post_list' %}" class="btn btn-outline-secondary" role="button">Retour</a>
-        <a href="{% url 'edit_profile' user.pk %}" class="btn btn-success" role="button">Modifier mon profil</a>
+        <a href="{% url 'edit_profile' %}" class="btn btn-success" role="button">Modifier mon profil</a>
         <p class="card-text ">{{ object.content | safe }}</p>
       </div>
     </div>

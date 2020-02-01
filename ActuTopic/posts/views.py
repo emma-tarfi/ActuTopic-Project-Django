@@ -35,6 +35,7 @@ class PostCreateView(CreateView):
     model = Post
     template_name = 'posts/create_post.html'
     form_class = PostForm
+    success_url = reverse_lazy('my_posts')
     post_created = False
     context_object_name = 'post'
 
@@ -51,14 +52,11 @@ class PostCreateView(CreateView):
         context['post_created'] = self.post_created
         return context
 
-    def get_success_url(self):
-        return reverse('my_posts')
-
 
 @method_decorator(login_required, name='dispatch')
 class PostUpdateView(UpdateView):
     model = Post
-    fields = ('title', 'slug', 'image', 'content', 'status')
+    fields = ('title', 'image', 'content', 'status')
     template_name = 'posts/update_post.html'
     context_object_name = 'post'
 
