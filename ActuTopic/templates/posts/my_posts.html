@@ -10,7 +10,7 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <h2 class="card-title">{{ post.title }}</h2>
-                            <p class="card-text text-muted h6">{% avatar user 65 class="img-circle img-responsive" id="user_avatar" %} {{ post.author }} | {{ post.created_on}} </p>
+                            <p class="card-text text-muted h6">{% avatar user id="user_avatar" %} {{ post.author }} | {{ post.created_on}} </p>
                             <p class="card-text">{{post.content|slice:":200" }}</p>
                             <a href="{% url 'my_posts_detail' post.pk post.slug  %}" class="btn btn-primary">Lire plus &rarr;</a>
                             <a href="{% url 'update' post.pk %}" class="btn btn-warning">Modifier</a>

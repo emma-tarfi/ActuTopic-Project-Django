@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="container">
+<div class="container center">
 <h1>Supprimer ma publication</h1>
     <form class="site-form" action="{% url 'delete' post.pk %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        <p>Are you sure you want to delete "{{ post }}"?</p>
+        <p>Êtes-vous sûr(e) de vouloir supprimer "{{ post }}"?</p>
         <input type="submit" class="btn btn-danger" value="Supprimer">
         <a href="{% url 'my_posts' %}" class="btn btn-outline-secondary" role="button">Annuler</a>
     </form>

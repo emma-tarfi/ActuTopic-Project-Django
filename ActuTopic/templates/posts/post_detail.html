@@ -1,17 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="container">
+<div class="container center" id="post_detail">
   <div class="row">
     <div class="col-md-12  top">
       <div class="card-body">
         <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
-        {% if post.updated_on %}
-            <p class=" text-muted">{{ post.author }} | {{ post.updated_on }}</p>
-        {% elif post.created_on %}
-            <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
-        {% endif %}
-        <img src="{{ post.image.url }}" />
         <p class="card-text ">{{ object.content | safe }}</p>
+        <img src="{{ post.image.url }}" />
+        <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
       </div>
     </div>
   </div>
