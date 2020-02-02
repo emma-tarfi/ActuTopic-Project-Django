@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31b807b1-6fbc-4120-a218-b54685999aa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/Cubitoine/profil-fb-wesh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/Cubitoine/profil-fb-wesh_C6jF8Vn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/Cubitoine/resized/80/profil-fb-wesh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/Cubitoine/resized/80/profil-fb-wesh_C6jF8Vn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/kawai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/resized/200/Avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/resized/50/Avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/resized/55/Avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/anokayle/resized/80/kawai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/emma.tarfi/resized/55/kawai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images_posts/4c8735b052d243ae5f0dc90383156fae.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/posts/create_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/create_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/posts/delete_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/delete_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/posts/my_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/my_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/posts/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/posts/update_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/update_post.html" afterDir="false" />
-    </list>
+    <list default="true" id="31b807b1-6fbc-4120-a218-b54685999aa3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +104,7 @@
       <workItem from="1580282934204" duration="5593000" />
       <workItem from="1580456072757" duration="11124000" />
       <workItem from="1580572430157" duration="7300000" />
-      <workItem from="1580647077396" duration="7917000" />
+      <workItem from="1580647077396" duration="7952000" />
     </task>
     <task id="LOCAL-00001" summary="User + publications terminés (voir createview + autres sur projet)">
       <created>1579873961424</created>
@@ -166,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580579752790</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Dernières modifs css + avatar">
+      <created>1580657764517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580657764517</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +172,7 @@
     <MESSAGE value="User + publications terminés (voir createview + autres sur projet)" />
     <MESSAGE value="Modification profil" />
     <MESSAGE value="Modification avatar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification avatar" />
+    <MESSAGE value="Dernières modifs css + avatar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dernières modifs css + avatar" />
   </component>
 </project>
